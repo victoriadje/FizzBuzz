@@ -271,7 +271,7 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
@@ -281,8 +281,8 @@ autocomplete — it will generate an empty "public static void main" (psvm) meth
 
 - [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
 appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
-inside `Main.java`, you would need to change the access modifier on the helper.
-It turns out that IntelliJ can help us out with this too!
+  inside `Main.java`, you would need to change the access modifier on the helper.
+  It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
@@ -298,7 +298,7 @@ error and not just a warning).
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
 - [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
-what you expect.
+  what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
 
@@ -308,8 +308,8 @@ If you add this line to `Main.main`, IntelliJ will tell you the problem and sugg
 but neither of them will *directly* fix the problem.
 
 * Talk with your team to try to find the best way to resolve the problem so that you can run `Main.java` and
-see the expected output of executing `FizzBuzz.main`. If you come up with different ways to do this,
-think about how they differ and which might be best.
+  see the expected output of executing `FizzBuzz.main`. If you come up with different ways to do this,
+  think about how they differ and which might be best.
 
 And that's all we wanted to highlight with this first example. You'll see and learn much more Java syntax as you work
 through readings and coding exercises over the next few weeks.
